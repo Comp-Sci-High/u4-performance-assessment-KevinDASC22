@@ -1,17 +1,19 @@
+
 body {
-    background-color: #6a0dad;
-    /* Beautiful shade of purple */
-    color: white;
-    /* Ensures text is readable on purple background */
-    text-align: center;
-    /* Centers all text by default */
+    background-color: #6a0dad; /* Beautiful shade of purple */
+    color: white; /* Ensures text is readable on purple background */
+    text-align: center; /* Centers all text by default */
 }
 
 h1 {
-    margin-top: 20vh;
-    /* Centers h1 towards the middle vertically */
+    margin-top: 20vh; /* Centers h1 towards the middle vertically */
     font-size: 3rem;
     font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .carousel {
@@ -25,20 +27,16 @@ h1 {
 }
 
 .navbar {
-    background-color: #4b0082 !important;
-    /* Darker purple for contrast */
+    background-color: #4b0082 !important; /* Darker purple for contrast */
 }
 
-.navbar-brand,
-.nav-link {
+.navbar-brand, .nav-link {
     color: white !important;
 }
 
 .carousel-inner img {
-    border-radius: 10px;
-    /* Adds rounded corners to carousel images */
+    border-radius: 10px; /* Adds rounded corners to carousel images */
 }
-
 
 .post {
     border-bottom: 2px solid white; /* Divider between posts */
